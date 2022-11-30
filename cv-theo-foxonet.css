@@ -20,6 +20,20 @@ h3 {
   .section-left{
     color: ghostwhite;
     font-family: 'Courgette', cursive;
-    
-
   }
+
+header ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+
+}
+header ul li{
+    text-align: center;
+    color: yellow;
+    cursor: pointer;
+}
+header > p{
+    color: white;
+}
